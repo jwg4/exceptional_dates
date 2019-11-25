@@ -1,0 +1,21 @@
+{
+  "examples":
+  [
+    {
+      "year": 2010,
+      "month": 8,
+      "day": 1,
+      "calendar": "Gregorian",
+      "description": "An example date",
+      "comment": "This date is special to the author, but it has no particular significance in date handling code."
+    },
+    {
+      "year": 2012,
+      "month": 10,
+      "day": 30,
+      "calendar": "Gregorian",
+      "description": "Another example date",
+      "comment": "This date is special to the author, but it has no particular significance in date handling code."
+    }
+  ]
+}
