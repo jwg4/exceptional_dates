@@ -12,5 +12,5 @@ The format of a date object is a follows:
  - month: an integer 1-12
  - day: an integer 1-31
  - calendar: a string, always "Gregorian" except for "invalid" dates. "Gregorian" means the proleptic Gregorian calendar, ie the Gregorian calendar as extended backwards beyond the date of its actual invention
- - description: a short string which describes the date
+ - description: a short, unique string which describes the date
  - comment: a longer string which explains the date
