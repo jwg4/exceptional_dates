@@ -17,6 +17,15 @@ class TestDataStructure(TestData):
             self.assertIn(k, self.data)
 
 
+class TestDataConsistency(TestData):
+    def test_classes(self):
+        s = set()
+        for k in ["valid", "invalid", "extra", "examples"]:
+            for d in self.data[k]:
+                self.assertNotIn(d["description"], s)
+                s.add(d["description"])
+
+
 class TestValidDates(TestData):
     def test_valid_dates_are_valid(self):
         for d in self.data["valid"]:
