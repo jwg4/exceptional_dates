@@ -16,6 +16,11 @@ class TestDataStructure(TestData):
         for k in ["valid", "invalid", "extra", "examples"]:
             self.assertIn(k, self.data)
 
+    def test_year_data(self):
+        for k in ["valid", "invalid", "extra", "examples"]:
+            for d in self.data[k]:
+                for f in ["year", "month", "day", "calendar", "description", "comment"]:
+                    self.assertIn(f, d)
 
 class TestDataConsistency(TestData):
     def test_classes(self):
