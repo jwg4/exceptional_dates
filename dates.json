@@ -41,7 +41,7 @@
       "year": 10000,
       "month": 1,
       "day": 1,
-      "weekday": "Monday"
+      "weekday": "Monday",
       "calendar": "Gregorian",
       "description": "1st Jan 10,000",
       "comment": "Not supported by some date libraries but a valid date nonetheless."
@@ -50,7 +50,7 @@
       "year": -1,
       "month": 12,
       "day": 31,
-      "weekday": "Sunday"
+      "weekday": "Sunday",
       "calendar": "Gregorian",
       "description": "31st Dec 1 BCE",
       "comment": "Not supported by some date libraries but a valid date nonetheless."
