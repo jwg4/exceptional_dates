@@ -17,5 +17,8 @@
       "description": "Another example date",
       "comment": "This date is special to the author, but it has no particular significance in date handling code."
     }
-  ]
+  ],
+  "valid": [],
+  "extra": [],
+  "invalid": []
 }
