@@ -16,9 +16,70 @@
       "calendar": "Gregorian",
       "description": "Another example date",
       "comment": "This date is special to the author, but it has no particular significance in date handling code."
+    },
+    {
+      "year": 2012,
+      "month": 3,
+      "day": 29,
+      "calendar": "Gregorian",
+      "description": "A leap day",
+      "comment": "In most years there is no February 29th but this year there was."
     }
   ],
-  "valid": [],
-  "extra": [],
-  "invalid": []
+  "valid": [
+    {
+      "year": 2000,
+      "month": 3,
+      "day": 29,
+      "calendar": "Gregorian",
+      "description": "A leap day in the year 2000",
+      "comment": "The year 2000 was a leap year."
+    }
+  ],
+  "extra": [
+    {
+      "year": 10000,
+      "month": 1,
+      "day": 1,
+      "weekday": "Monday"
+      "calendar": "Gregorian",
+      "description": "1st Jan 10,000",
+      "comment": "Not supported by some date libraries but a valid date nonetheless."
+    },
+    {
+      "year": -1,
+      "month": 12,
+      "day": 31,
+      "weekday": "Sunday"
+      "calendar": "Gregorian",
+      "description": "31st Dec 1 BCE",
+      "comment": "Not supported by some date libraries but a valid date nonetheless."
+    }
+  ],
+  "invalid": [
+      {
+      "year": 1900,
+      "month": 3,
+      "day": 29,
+      "calendar": "Gregorian",
+      "description": "A leap day which did not exist",
+      "comment": "The year 1900 was not a leap year, but would have been in the Julian calendar. Some date libraries have historically got this wrong."
+    },
+      {
+      "year": 0,
+      "month": 1,
+      "day": 1,
+      "calendar": "Gregorian",
+      "description": "A day in a year which did not exist",
+      "comment": "There was no year 0."
+    },
+    {
+      "year": 1712,
+      "month": 3,
+      "day": 30,
+      "calendar": "Gregorian",
+      "description": "A day which existed in the Swedish historical calendar",
+      "comment": "The Swedish calendar included Feb 30 in 1712, but the standard Gregorian calendar does not. See https://en.wikipedia.org/wiki/List_of_non-standard_dates#February_30"
+    }
+  ]
 }
