@@ -60,3 +60,12 @@ class TestValidDates(TestData):
         for d in self.data["examples"]:
             dobj = date(d["year"], d["month"], d["day"])
             self.assertIsNotNone(dobj)
+
+    def test_valid_dates_have_valid_weekdays(self):
+        for d in self.data["valid"]:
+            dobj = date(d["year"], d["month"], d["day"])
+            wd = dobj.strftime("%A")
+            self.assertEqual(
+                d["weekday"], wd,
+                "%s has the weekday %s" % (dobj, wd)
+            )
