@@ -90,6 +90,24 @@
       "calendar": "Gregorian",
       "description": "Also one year before a leap day",
       "comment": "This date could be calculated as the date one year before 29th Feb 1980."
+    },
+    {
+      "year": 2001,
+      "month": 12,
+      "day": 20,
+      "weekday": "Thursday",
+      "calendar": "Gregorian",
+      "description": "Month and day not ambiguous",
+      "comment": "Switching the month and day values would not give a valid date."
+    },
+    {
+      "year": 2001,
+      "month": 9,
+      "day": 8,
+      "weekday": "Saturday",
+      "calendar": "Gregorian",
+      "description": "Month and day ambiguous",
+      "comment": "Switching the month and day values would give another valid date."
     }
   ],
   "valid": [
