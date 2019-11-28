@@ -210,6 +210,54 @@
       "calendar": "Swedish historical calendar",
       "description": "A day which existed in the Swedish historical calendar",
       "comment": "INVALID: The Swedish calendar included Feb 30 in 1712, but the standard Gregorian calendar does not. See https://en.wikipedia.org/wiki/List_of_non-standard_dates#February_30"
+    },
+    {
+      "year": 1995,
+      "month": 0,
+      "day": 12,
+      "calendar": "NONE",
+      "description": "A day with 0 as the month",
+      "comment": "INVALID: Month values must be 1-12."
+    },
+    {
+      "year": 1995,
+      "month": 7,
+      "day": 0,
+      "calendar": "NONE",
+      "description": "A day with 0 as the day",
+      "comment": "INVALID: Day values must be 1-31."
+    },
+    {
+      "year": 1995,
+      "month": 7,
+      "day": -2,
+      "calendar": "NONE",
+      "description": "A day with -2 as the day",
+      "comment": "INVALID: Day values must be 1-31."
+    },
+    {
+      "year": 1995,
+      "month": 8,
+      "day": 35,
+      "calendar": "NONE",
+      "description": "The 35th of August",
+      "comment": "INVALID: Day values must be 1-31."
+    },
+    {
+      "year": 1995,
+      "month": 9,
+      "day": 31,
+      "calendar": "NONE",
+      "description": "The 31st of September",
+      "comment": "INVALID: September has only 30 days."
+    },
+    {
+      "year": 1995,
+      "month": 14,
+      "day": 12,
+      "calendar": "NONE",
+      "description": "A day with 14 as the month",
+      "comment": "INVALID: Month values must be 1-12."
     }
   ]
 }
