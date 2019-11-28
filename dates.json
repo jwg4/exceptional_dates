@@ -5,6 +5,7 @@
       "year": 2010,
       "month": 8,
       "day": 1,
+      "weekday": "Sunday",
       "calendar": "Gregorian",
       "description": "An example date",
       "comment": "This date is special to the author, but it has no particular significance in date handling code."
@@ -13,14 +14,16 @@
       "year": 2012,
       "month": 10,
       "day": 30,
+      "weekday": "Tuesday",
       "calendar": "Gregorian",
       "description": "Another example date",
       "comment": "This date is special to the author, but it has no particular significance in date handling code."
     },
     {
       "year": 2012,
-      "month": 3,
+      "month": 2,
       "day": 29,
+      "weekday": "Wednesday",
       "calendar": "Gregorian",
       "description": "A leap day",
       "comment": "In most years there is no February 29th but this year there was."
@@ -31,6 +34,7 @@
       "year": 2000,
       "month": 3,
       "day": 29,
+      "weekday": "Monday",
       "calendar": "Gregorian",
       "description": "A leap day in the year 2000",
       "comment": "The year 2000 was a leap year."
