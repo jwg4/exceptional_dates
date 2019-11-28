@@ -16,7 +16,7 @@ class TestDataStructure(TestData):
         for k in ["valid", "invalid", "extra", "examples"]:
             self.assertIn(k, self.data)
 
-    def test_year_data(self):
+    def test_complete_data(self):
         for k in ["valid", "invalid", "extra", "examples"]:
             for d in self.data[k]:
                 for f in [
@@ -24,6 +24,11 @@ class TestDataStructure(TestData):
                     "calendar", "description", "comment"
                 ]:
                     self.assertIn(f, d)
+
+    def test_weekday_data(self):
+        for k in ["valid", "extra", "examples"]:
+            for d in self.data[k]:
+                self.assertIn("weekday", d)
 
 
 class TestDataConsistency(TestData):
@@ -40,8 +45,10 @@ class TestDataAnnotation(TestData):
         for d in self.data["invalid"]:
             self.assertTrue(
                 d["comment"].startswith("INVALID"),
-                """The comment "%s" should start with INVALID.""" % (d["comment"],)
+                """The comment "%s" should start with INVALID."""
+                % (d["comment"],)
             )
+
 
 class TestValidDates(TestData):
     def test_valid_dates_are_valid(self):
