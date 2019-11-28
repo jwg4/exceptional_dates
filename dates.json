@@ -65,6 +65,42 @@
       "calendar": "Gregorian",
       "description": "Skipped in the Swedish calendar",
       "comment": "This day was skipped in Sweden when switching to the Gregorian calendar. It exists in the proleptic Gregorian calendar."
+    },
+    {
+      "year": 1969,
+      "month": 12,
+      "day": 31,
+      "weekday": "Wednesday",
+      "calendar": "Gregorian",
+      "description": "Day before the Unix epoch",
+      "comment": "The Unix epoch starts on the first day of 1970."
+    },
+    {
+      "year": 1970,
+      "month": 1,
+      "day": 1,
+      "weekday": "Thursday",
+      "calendar": "Gregorian",
+      "description": "First day of the Unix epoch",
+      "comment": "Unix timestamps count from this day, originally in seconds in a 32-bit integer."
+    },
+    {
+      "year": 2038,
+      "month": 1,
+      "day": 20,
+      "weekday": "Wednesday",
+      "calendar": "Gregorian",
+      "description": "Overflow of 32-bit Unix timestamp",
+      "comment": "Unix counts seconds from 1 Jan 1970. A 32-bit integer will overflow on this day."
+    },
+    {
+      "year": 2046,
+      "month": 1,
+      "day": 20,
+      "weekday": "Saturday",
+      "calendar": "Gregorian",
+      "description": "Overflow of Amiga timestamp",
+      "comment": "AmigaOS counts seconds from 1 Jan 1978. A 32-bit integer will overflow on this day."
     }
   ],
   "extra": [
