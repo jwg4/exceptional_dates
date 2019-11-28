@@ -258,6 +258,22 @@
       "calendar": "NONE",
       "description": "A day with 14 as the month",
       "comment": "INVALID: Month values must be 1-12."
+    },
+    {
+      "year": 1995,
+      "month": 31,
+      "day": 3,
+      "calendar": "NONE",
+      "description": "Switched month and day",
+      "comment": "INVALID: Month is 31. Day is 3. Probably the two values were switched."
+    },
+    {
+      "year": 31,
+      "month": 3,
+      "day": 1995,
+      "calendar": "NONE",
+      "description": "Switched year and day",
+      "comment": "INVALID: Year is 31. Day is 1995. Probably the two values were switched."
     }
   ]
 }
