@@ -27,6 +27,69 @@
       "calendar": "Gregorian",
       "description": "A leap day",
       "comment": "In most years there is no February 29th but this year there was."
+    },
+    {
+      "year": 1997,
+      "month": 2,
+      "day": 28,
+      "weekday": "Friday",
+      "calendar": "Gregorian",
+      "description": "A non-leap day",
+      "comment": "The last day of February in a common year (year which is not a leap year)."
+    },
+    {
+      "year": 1799,
+      "month": 3,
+      "day": 1,
+      "weekday": "Friday",
+      "calendar": "Gregorian",
+      "description": "Another non-leap day",
+      "comment": "The day following 28th February in a common year (year which is not a leap year)."
+    },
+    {
+      "year": 2020,
+      "month": 4,
+      "day": 10,
+      "weekday": "Friday",
+      "calendar": "Gregorian",
+      "description": "An example of Good Friday",
+      "comment": "The date of (Western) Good Friday varies every year. In many countries it is a holiday. Orthodox churches use a different date."
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "day": 28,
+      "weekday": "Thursday",
+      "calendar": "Gregorian",
+      "description": "An example of Thanksgiving",
+      "comment": "U.S. Thanksgiving is celebrated the fourth Thursday in November, and is a public holiday there."
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "day": 30,
+      "weekday": "Saturday",
+      "calendar": "Gregorian",
+      "description": "A month-end weekend day",
+      "comment": "The first working day following this days falls in the next month, and therefore Modified Following for this date is the previous day."
+    },
+    {
+      "year": 1979,
+      "month": 2,
+      "day": 28,
+      "weekday": "Wednesday",
+      "calendar": "Gregorian",
+      "description": "One year before a leap day",
+      "comment": "This date could be calculated as the date one year before 29th Feb 1980."
+    },
+    {
+      "year": 1979,
+      "month": 3,
+      "day": 1,
+      "weekday": "Thursday",
+      "calendar": "Gregorian",
+      "description": "Also one year before a leap day",
+      "comment": "This date could be calculated as the date one year before 29th Feb 1980."
     }
   ],
   "valid": [
