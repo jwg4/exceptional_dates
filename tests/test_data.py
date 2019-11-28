@@ -35,6 +35,14 @@ class TestDataConsistency(TestData):
                 s.add(d["description"])
 
 
+class TestDataAnnotation(TestData):
+    def test_invalid_marked_in_comment(self):
+        for d in self.data["invalid"]:
+            self.assertTrue(
+                d["comment"].startswith("INVALID"),
+                """The comment "%s" should start with INVALID.""" % (d["comment"],)
+            )
+
 class TestValidDates(TestData):
     def test_valid_dates_are_valid(self):
         for d in self.data["valid"]:

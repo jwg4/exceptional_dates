@@ -63,7 +63,7 @@
       "day": 29,
       "calendar": "Gregorian",
       "description": "A leap day which did not exist",
-      "comment": "The year 1900 was not a leap year, but would have been in the Julian calendar. Some date libraries have historically got this wrong."
+      "comment": "INVALID: The year 1900 was not a leap year, but would have been in the Julian calendar. Some date libraries have historically got this wrong."
     },
       {
       "year": 0,
@@ -71,7 +71,7 @@
       "day": 1,
       "calendar": "Gregorian",
       "description": "A day in a year which did not exist",
-      "comment": "There was no year 0."
+      "comment": "INVALID: There was no year 0."
     },
     {
       "year": 1712,
@@ -79,7 +79,7 @@
       "day": 30,
       "calendar": "Gregorian",
       "description": "A day which existed in the Swedish historical calendar",
-      "comment": "The Swedish calendar included Feb 30 in 1712, but the standard Gregorian calendar does not. See https://en.wikipedia.org/wiki/List_of_non-standard_dates#February_30"
+      "comment": "INVALID: The Swedish calendar included Feb 30 in 1712, but the standard Gregorian calendar does not. See https://en.wikipedia.org/wiki/List_of_non-standard_dates#February_30"
     }
   ]
 }
