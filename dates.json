@@ -38,6 +38,33 @@
       "calendar": "Gregorian",
       "description": "A leap day in the year 2000",
       "comment": "The year 2000 was a leap year."
+    },
+    {
+      "year": 1752,
+      "month": 9,
+      "day": 3,
+      "weekday": "Monday",
+      "calendar": "Gregorian",
+      "description": "Skipped in the English calendar",
+      "comment": "This day was skipped in England when switching to the Gregorian calendar. It exists in the proleptic Gregorian calendar."
+    },
+    {
+      "year": 1582,
+      "month": 12,
+      "day": 10,
+      "weekday": "Monday",
+      "calendar": "Gregorian",
+      "description": "Skipped in the French calendar",
+      "comment": "This day was skipped in France when switching to the Gregorian calendar. It exists in the proleptic Gregorian calendar."
+    },
+    {
+      "year": 1753,
+      "month": 2,
+      "day": 18,
+      "weekday": "Monday",
+      "calendar": "Gregorian",
+      "description": "Skipped in the Swedish calendar",
+      "comment": "This day was skipped in Sweden when switching to the Gregorian calendar. It exists in the proleptic Gregorian calendar."
     }
   ],
   "extra": [
