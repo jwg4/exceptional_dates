@@ -108,6 +108,15 @@
       "calendar": "Gregorian",
       "description": "Month and day ambiguous",
       "comment": "Switching the month and day values would give another valid date."
+    },
+    {
+      "year": 1415,
+      "month": 11,
+      "day": 3,
+      "weekday": "Friday",
+      "calendar": "Gregorian",
+      "description": "A date which predates the Gregorian calendar",
+      "comment": "This is a valid date in the proleptic Gregorian calendar, although the Gregorian calendar did not exist on this date."
     }
   ],
   "valid": [
@@ -275,6 +284,14 @@
       "day": 12,
       "calendar": "NONE",
       "description": "A day with 14 as the month",
+      "comment": "INVALID: Month values must be 1-12."
+    },
+    {
+      "year": 1995,
+      "month": 14,
+      "day": 14,
+      "calendar": "NONE",
+      "description": "An invalid month which definitely isn't a switched month and day",
       "comment": "INVALID: Month values must be 1-12."
     },
     {

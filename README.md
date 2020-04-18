@@ -3,7 +3,7 @@ Dates which can be used to check date handling code.
 
 The JSON file `dates.json` contains several lists of dates:
  - examples: examples of dates with particular properties, such as being the last day of the month, being a leap day, etc.
- - valid: valid dates from the Gregorian calendar, years 1 through 9999. Unlike 'examples', these dates often have a special significance, for example the first day of the Unix epoch.
+ - valid: valid dates from the Gregorian calendar, years 1 through 9999. Unlike 'examples', these dates often have a special significance, for example the first day of the Unix epoch. Some of these dates might be recognized as invalid by date handling code with specific bugs.
  - extra: valid Gregorian dates which are not from years 1-9999. Some date code cannot work with these, nevertheless they are correct dates.
  - invalid: things which aren't valid dates in the Gregorian calendar, and should be recognized as invalid.
 
