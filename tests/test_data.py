@@ -78,3 +78,10 @@ class TestValidDates(TestData):
                 d["weekday"], wd,
                 "%s has the weekday %s" % (dobj, wd)
             )
+
+
+class TestInvalidDates(TestData):
+    def test_invalid_dates_are_invalid(self):
+        for d in self.data["invalid"]:
+            with self.assertRaises(Exception, msg="The date (%d, %d, %d) should be considered invalid" % (d["year"], d["month"], d["day"])):
+                date(d["year"], d["month"], d["day"])
