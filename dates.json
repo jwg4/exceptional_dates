@@ -239,6 +239,14 @@
       "comment": "INVALID: The Swedish calendar included Feb 30 in 1712, but the standard Gregorian calendar does not. See https://en.wikipedia.org/wiki/List_of_non-standard_dates#February_30"
     },
     {
+      "year": 1700,
+      "month": 2,
+      "day": 29,
+      "calendar": "Julian",
+      "description": "A leap day in the Julian calendar only",
+      "comment": "INVALID: This day did not exist in the Gregorian calendar. It was skipped from the Swedish calendar, even though they were still observing the Julian calendar. See https://en.wikipedia.org/wiki/List_of_non-standard_dates#February_30"
+    },
+    {
       "year": 1995,
       "month": 0,
       "day": 12,
