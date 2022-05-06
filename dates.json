@@ -216,7 +216,7 @@
   "invalid": [
       {
       "year": 1900,
-      "month": 3,
+      "month": 2,
       "day": 29,
       "calendar": "Julian",
       "description": "A leap day which did not exist",
@@ -232,7 +232,7 @@
     },
     {
       "year": 1712,
-      "month": 3,
+      "month": 2,
       "day": 30,
       "calendar": "Swedish historical calendar",
       "description": "A day which existed in the Swedish historical calendar",
