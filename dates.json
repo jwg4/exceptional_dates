@@ -291,7 +291,7 @@
       "month": 14,
       "day": 12,
       "calendar": "NONE",
-      "description": "A day with 14 as the month",
+      "description": "A date with 14 as the month",
       "comment": "INVALID: Month values must be 1-12."
     },
     {
